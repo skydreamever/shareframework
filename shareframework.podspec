@@ -10,4 +10,12 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/skydreamever/shareframework.git", :tag => "1.0.0" }
   s.source_files = "ShareFramework", "ShareFramework/ShareFramework/*.{h,m,swift}"
   s.requires_arc = true 
+
+  s.subspec 'NetWorkEngine' do |networkEngine|
+      networkEngine.source_files = 'Pods/AFNetworking/**/*'
+      networkEngine.public_header_files = 'Pods/AFNetworking/**/*.h'
+      networkEngine.dependency 'AFNetworking', '~> 3.0'
+  end
+
+
 end
