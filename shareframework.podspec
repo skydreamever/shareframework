@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "shareframework"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "a framework just for use"
   s.description  = <<-DESC
                    DESC
