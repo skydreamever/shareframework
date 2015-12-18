@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1F0C8A985700EBF792AFE82D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2ECAE45108CF7A7A1605AD /* Pods.framework */; };
+		F52868A11C23CD3800A03740 /* mobile_home.png in Resources */ = {isa = PBXBuildFile; fileRef = F52868A01C23CD3800A03740 /* mobile_home.png */; };
+		F56372751C23CE1300193747 /* ShareImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56372741C23CE1300193747 /* ShareImageView.swift */; };
 		F5F96FAD1C227F6400031B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F96FAC1C227F6400031B87 /* AppDelegate.swift */; };
 		F5F96FAF1C227F6400031B87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F96FAE1C227F6400031B87 /* ViewController.swift */; };
 		F5F96FB21C227F6400031B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F96FB01C227F6400031B87 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 		0F9923BD7F97BB35CD5BB496 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		2E2ECAE45108CF7A7A1605AD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7767ADE3DBB6235AE7468248 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F52868A01C23CD3800A03740 /* mobile_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile_home.png; sourceTree = "<group>"; };
+		F56372741C23CE1300193747 /* ShareImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareImageView.swift; sourceTree = "<group>"; };
 		F5F96FA91C227F6400031B87 /* ShareFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F96FAC1C227F6400031B87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5F96FAE1C227F6400031B87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,12 +82,14 @@
 		F5F96FAB1C227F6400031B87 /* ShareFramework */ = {
 			isa = PBXGroup;
 			children = (
+				F52868A01C23CD3800A03740 /* mobile_home.png */,
 				F5F96FAC1C227F6400031B87 /* AppDelegate.swift */,
 				F5F96FAE1C227F6400031B87 /* ViewController.swift */,
 				F5F96FB01C227F6400031B87 /* Main.storyboard */,
 				F5F96FB31C227F6400031B87 /* Assets.xcassets */,
 				F5F96FB51C227F6400031B87 /* LaunchScreen.storyboard */,
 				F5F96FB81C227F6400031B87 /* Info.plist */,
+				F56372741C23CE1300193747 /* ShareImageView.swift */,
 			);
 			path = ShareFramework;
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 			files = (
 				F5F96FB71C227F6400031B87 /* LaunchScreen.storyboard in Resources */,
 				F5F96FB41C227F6400031B87 /* Assets.xcassets in Resources */,
+				F52868A11C23CD3800A03740 /* mobile_home.png in Resources */,
 				F5F96FB21C227F6400031B87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56372751C23CE1300193747 /* ShareImageView.swift in Sources */,
 				F5F96FAF1C227F6400031B87 /* ViewController.swift in Sources */,
 				F5F96FAD1C227F6400031B87 /* AppDelegate.swift in Sources */,
 			);
