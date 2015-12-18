@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ShareImageView: UIView {
+public class ShareImageView: UIView {
 
      override init(frame: CGRect) {
         super.init(frame: frame)
@@ -19,7 +19,7 @@ class ShareImageView: UIView {
         
     }
 
-     required init?(coder aDecoder: NSCoder) {
+     required public init?(coder aDecoder: NSCoder) {
          super.init(coder: aDecoder)
      }
     
