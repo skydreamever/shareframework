@@ -8,20 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
+        let image = UIImage(named: "mobile_home")
         
-        let imgview = UIImageView(image: UIImage(named: "mobile_home"))
+        let imgview = UIImageView(image: image)
         self.view.addSubview(imgview)
         
         
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+    override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
